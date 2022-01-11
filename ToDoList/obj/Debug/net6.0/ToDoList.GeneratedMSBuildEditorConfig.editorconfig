@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ToDoList
+build_property.RootNamespace = ToDoList
+build_property.ProjectDir = C:\Users\epham\OneDrive\Desktop\Programming Projects\Visual Studio\ToDoList\ToDoList\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\epham\OneDrive\Desktop\Programming Projects\Visual Studio\ToDoList\ToDoList
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Folders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9sZGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Folders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9sZGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Folders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9sZGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Folders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9sZGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Folders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9sZGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/List/Completion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFxDb21wbGV0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/List/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/List/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/List/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/List/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/List/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/List/Testing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFxUZXN0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Shared/Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFNpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/epham/OneDrive/Desktop/Programming Projects/Visual Studio/ToDoList/ToDoList/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0a866z2d46

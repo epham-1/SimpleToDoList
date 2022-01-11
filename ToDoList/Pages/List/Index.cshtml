@@ -1,0 +1,84 @@
+﻿@page
+@using ToDoList.Pages.List
+@model IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="d-flex" >
+    <partial name="Sidebar" model="Model.Folders"></partial>
+    <div class="container">
+        <div class="d-flex">
+            <h1 class="me-auto">@Model.currentFolder.FolderName</h1>
+            <a asp-page="../Folders/Edit" asp-route-id="@Model.currentFolder.Id" class="btn btn-info" style="height:44px">
+                <span class="bi-pencil">Edit Folder Name</span>
+            </a>
+            <a asp-page="../Folders/Delete" asp-route-id="@Model.currentFolder.Id" class="btn btn-danger" style="height:44px">
+                <span class="bi-trash">Delete Folder</span>
+            </a>
+        </div>
+
+        @foreach (var item in Model.List)
+        {
+            @if (item.Completed)
+            {
+            <div class="card row no-gutters bg-success" style="height: 5rem;">
+                <div class="card-body">
+                        <h6 class="card-title d-flex align-items-center ">
+                            <span class="me-auto">@item.Title</span>
+                            <a asp-page="./Completion" asp-route-id="@item.Id" class="btn btn-sm btn-danger">
+                                <span class="bi-x-square"></span>    
+                            </a>
+                            <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-sm btn-info">
+                            <span class="bi-pencil"></span>
+                            </a>
+
+                            <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                                <span class="bi-trash"></span>
+                            </a>
+
+                        </h6>
+                        <p class="card-subtitle mb-2 text-muted d-flex justify-content-between align-items-center">
+                            @item.Desc
+                        </p>
+                    
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="card row no-gutters bg-danger" style="height: 5rem;">
+                <div class="card-body">
+                        <h6 class="card-title d-flex align-items-center ">
+                            <span class="me-auto">@item.Title</span>
+                            <a asp-page="./Completion" asp-route-id="@item.Id" class="btn btn-sm btn-success">
+                                <span class="bi-check-square"></span>    
+                            </a>
+                            <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-sm btn-info">
+                            <span class="bi-pencil"></span>
+                            </a>
+
+                            <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                                <span class="bi-trash"></span>
+                            </a>
+
+                        </h6>
+                        <p class="card-subtitle mb-2 text-muted d-flex justify-content-between align-items-center">
+                            @item.Desc
+                        </p>
+                    
+                    </div>
+                </div>  
+            }
+        }
+        <div class="card row no-gutters bg-info" style="height: 5rem;">
+                <div class="card-body">
+                        <h6 class="card-title d-flex align-items-center ">
+                            <span class="me-auto">Create New Task</span>
+                            <a asp-page="Create" asp-route-folderId="@Model.currentFolder.Id" style="height:44px"class="btn btn-success">
+                                <span class="bi-plus-square"></span>    
+                            </a>
+                        </h6>
+                    </div>
+        </div>
+    </div>
+</div>
